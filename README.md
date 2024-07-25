@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @amankumargupta
-- 👀 I’m open to work on web development & c language based projects.
-- 🌱 I’m currently learning C language, Javascript
-- 💞️ I’m learnt HTML, CSS so far.
-- 📫 I can be connected here pg65734@gmail.com
+- 👀 I’m open to work on web development projects.
+- 🌱 I’m currently learning web deployment and scaling.
+- 💞️ I’m learnt MERN stack, C++, Java, MySql, Git, AWS.
+- 📫 I can be connected here amangupta65734@gmail.com
