@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @amankumargupta
 - 👀 I’m open to work on web development projects.
 - 🌱 I’m currently learning web deployment and scaling.
-- 💞️ I’m learnt MERN stack, C++, Java, MySql, Git, AWS.
+- 💞️ I’m learnt MERN stack, C++, Java, MySql, Git.
 - 📫 I can be connected here amangupta65734@gmail.com
