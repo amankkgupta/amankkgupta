@@ -185,145 +185,15 @@ const Home = () => {
             </h1>
             <div className="flex justify-evenly flex-wrap items-center py-4">
               <a
-                href="github.com/amankkgupta"
+                href="https://todo-app-ccjp.vercel.app/"
+                target="_blank"
                 className="px-6 text-center py-2 bg-emerald-500 rounded-lg font-bold"
               >
                 Live Demo
               </a>
               <a
-                href="github.com/amankkgupta"
-                className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-          <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
-            <img src={todo} alt="Profile" className="rounded-xl" />
-            <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">
-                Todo List App
-              </h1>
-              <h1 className="">Technologies: Html, Css, Javascript.</h1>
-            </div>
-            <h1 className="">
-              I am currently leading my team in my Infosys Springboard
-              internship, where I am working as a backend developer. My
-              responsibilities include designing and preparing the database
-              model for our project. I am also ensuring efficient data
-              management and smooth integration with other parts of the
-              application. In addition to technical tasks, I guide my team in
-              making key backend architecture decisions. This role is enhancing
-              my leadership and technical skills.
-            </h1>
-            <div className="flex justify-evenly flex-wrap items-center py-4">
-              <a
-                href="github.com/amankkgupta"
-                className="px-6 text-center py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Live Demo
-              </a>
-              <a
-                href="github.com/amankkgupta"
-                className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-          <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
-            <img src={todo} alt="Profile" className="rounded-xl" />
-            <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">
-                Todo List App
-              </h1>
-              <h1 className="">Technologies: Html, Css, Javascript.</h1>
-            </div>
-            <h1 className="">
-              I am currently leading my team in my Infosys Springboard
-              internship, where I am working as a backend developer. My
-              responsibilities include designing and preparing the database
-              model for our project. I am also ensuring efficient data
-              management and smooth integration with other parts of the
-              application. In addition to technical tasks, I guide my team in
-              making key backend architecture decisions. This role is enhancing
-              my leadership and technical skills.
-            </h1>
-            <div className="flex justify-evenly flex-wrap items-center py-4">
-              <a
-                href="github.com/amankkgupta"
-                className="px-6 text-center py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Live Demo
-              </a>
-              <a
-                href="github.com/amankkgupta"
-                className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-          <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
-            <img src={todo} alt="Profile" className="rounded-xl" />
-            <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">
-                Todo List App
-              </h1>
-              <h1 className="">Technologies: Html, Css, Javascript.</h1>
-            </div>
-            <h1 className="">
-              I am currently leading my team in my Infosys Springboard
-              internship, where I am working as a backend developer. My
-              responsibilities include designing and preparing the database
-              model for our project. I am also ensuring efficient data
-              management and smooth integration with other parts of the
-              application. In addition to technical tasks, I guide my team in
-              making key backend architecture decisions. This role is enhancing
-              my leadership and technical skills.
-            </h1>
-            <div className="flex justify-evenly flex-wrap items-center py-4">
-              <a
-                href="github.com/amankkgupta"
-                className="px-6 text-center py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Live Demo
-              </a>
-              <a
-                href="github.com/amankkgupta"
-                className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Github
-              </a>
-            </div>
-          </div>
-          <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
-            <img src={todo} alt="Profile" className="rounded-xl" />
-            <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">
-                Todo List App
-              </h1>
-              <h1 className="">Technologies: Html, Css, Javascript.</h1>
-            </div>
-            <h1 className="">
-              I am currently leading my team in my Infosys Springboard
-              internship, where I am working as a backend developer. My
-              responsibilities include designing and preparing the database
-              model for our project. I am also ensuring efficient data
-              management and smooth integration with other parts of the
-              application. In addition to technical tasks, I guide my team in
-              making key backend architecture decisions. This role is enhancing
-              my leadership and technical skills.
-            </h1>
-            <div className="flex justify-evenly flex-wrap items-center py-4">
-              <a
-                href="github.com/amankkgupta"
-                className="px-6 text-center py-2 bg-emerald-500 rounded-lg font-bold"
-              >
-                Live Demo
-              </a>
-              <a
-                href="github.com/amankkgupta"
+                href="https://github.com/amankkgupta/Todo-App"
+                target="_blank"
                 className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
               >
                 Github
