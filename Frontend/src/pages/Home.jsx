@@ -20,10 +20,7 @@ const Home = () => {
   return (
     <div id="main" className="min-w-full min-h-screen bg-blue-950">
       {/* //navbar */}
-      <div
-        id="navbar"
-        className="hidden sticky top-2 md:flex justify-center items-center"
-      >
+      <div className="navbarmd hidden sticky top-2 md:flex justify-center items-center">
         <div className="rounded-full bg-blue-500 flex py-3 px-10 justify-center items-center">
           <div>
             <ul className="flex gap-14 text-black font-extrabold">
@@ -47,22 +44,31 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="md:hidden sticky top-2 flex justify-center items-center">
+      <div className="navbarsm md:hidden fixed top-2 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
         <div className="rounded-full bg-blue-500 flex px-6 py-4 gap-12 justify-center items-center">
-          <HomeIcon />
-          <CircleUserRound />
-          <Briefcase />
-          <FolderClosed />
-          <ContactRound />
+          <a href="#home">
+            <HomeIcon />
+          </a>
+          <a href="#aboutme">
+            <CircleUserRound />
+          </a>
+          <a href="#experience">
+            {" "}
+            <Briefcase />
+          </a>
+          <a href="#projects">
+            <FolderClosed />
+          </a>
+          <ContactRound onClick={showContact} />
         </div>
       </div>
 
       {/* //home */}
       <div
         id="home"
-        className="md:p-20 p-5 w-full min-h-screen flex flex-col md:flex-row items-center justify-around"
+        className="md:p-20 p-5 pt-20 w-full min-h-screen flex flex-col md:flex-row items-center justify-around"
       >
-        <div>
+        <div className="">
           <h1 className="text-6xl font-bold text-white">Hello,</h1>
           <h1 className="text-6xl my-4 font-bold text-white">
             My name is <span className="text-red-500">Aman Kumar Gupta</span>
@@ -70,25 +76,25 @@ const Home = () => {
           <h1 className="text-6xl font-bold text-white">
             I'm a <span className="text-green-600">FullStack Developer</span>.
           </h1>
-          <div className="my-6 flex gap-5">
+          <div className="my-6 flex justify-start gap-3 items-center">
             <a
               href="https://github.com/amankkgupta"
               target="_blank"
-              className="px-8 py-2 bg-emerald-500 rounded-lg font-bold"
+              className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
             >
               Github
             </a>
             <a
               href="https://linkedin.com/in/amankkgupta"
               target="_blank"
-              className="px-8 py-2 bg-emerald-500 rounded-lg font-bold"
+              className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
             >
               LinkedIn
             </a>
             <a
               href="https://drive.google.com/file/d/1WOa7ZEXQj_ug2A0YpijqmxkdAFOvCJbU/view?usp=sharing"
               target="_blank"
-              className="px-8 py-2 bg-emerald-500 rounded-lg font-bold"
+              className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
             >
               Resume
             </a>
@@ -103,7 +109,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="aboutme" className="bg-blue-950 md:px-20 md:py-10">
+      <div id="aboutme" className="bg-blue-950 p-5 pt-20 md:px-20 md:py-10">
         <h1 className="text-4xl text-emerald-500 font-bold text-center rounded-full py-10">
           About me
         </h1>
@@ -128,7 +134,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="experience" className="bg-blue-950 md:px-20 md:py-10">
+      <div id="experience" className="bg-blue-950 p-5 pt-20 md:px-20 md:py-10">
         <h1 className="text-4xl text-emerald-500 font-bold text-center rounded-full py-10">
           Experience
         </h1>
@@ -154,7 +160,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div id="projects" className="bg-blue-950 md:px-20 md:py-10">
+      <div id="projects" className="bg-blue-950 md:px-20 p-5 pt-20 md:py-10">
         <h1 className="text-4xl text-emerald-500 font-bold text-center rounded-full py-10">
           Projects
         </h1>
