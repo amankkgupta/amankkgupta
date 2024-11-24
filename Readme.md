@@ -15,5 +15,5 @@ Welcome to the repository for my personal portfolio website! This site serves as
 - **Contact Links:** Quick access to my GitHub, LinkedIn, and eEail for easy communication.
 
 ## 🖥️ Live Preview
-Explore the live site here: [amankkgupta.me]
+Explore the live site here: https://amankkgupta.me
 
