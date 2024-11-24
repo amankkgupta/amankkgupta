@@ -21,10 +21,10 @@ Through my coursework and projects, I have gained experience in **Data Structure
 ## 🛠️ Technical Skills
 
 ### **Programming Languages:**
-- C, C++, Java, Python
+- C, C++, Java
 
 ### **Frontend Development:**
-- HTML, CSS, JavaScript, React.js, DOM
+- HTML, CSS, JavaScript, React.js
 
 ### **Backend Development:**
 - Node.js, Express.js
@@ -38,7 +38,6 @@ Through my coursework and projects, I have gained experience in **Data Structure
 ### **Coursework:**
 - Data Structures & Algorithms (DSA)
 - Object-Oriented Programming (OOP)
-- Operating Systems
 
 ### **Soft Skills:**
 - Presentation, Time Management, Problem Solving
