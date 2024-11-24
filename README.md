@@ -12,6 +12,12 @@ I have hands-on experience with a wide array of technologies, which allows me to
 
 ---
 
+## 🎓 Experience & Learning
+
+Through my coursework and projects, I have gained experience in **Data Structures & Algorithms, OOP, and Operating Systems**, which provide the foundation for efficient coding and problem-solving. I also sharpened my **presentation** and **time management** skills through various academic and personal projects.
+
+---
+
 ## 🛠️ Technical Skills
 
 ### **Programming Languages:**
@@ -36,12 +42,6 @@ I have hands-on experience with a wide array of technologies, which allows me to
 
 ### **Soft Skills:**
 - Presentation, Time Management, Problem Solving
-
----
-
-## 🎓 Experience & Learning
-
-Through my coursework and projects, I have gained experience in **Data Structures & Algorithms, OOP, and Operating Systems**, which provide the foundation for efficient coding and problem-solving. I also sharpened my **presentation** and **time management** skills through various academic and personal projects.
 
 ---
 
