@@ -16,20 +16,20 @@ export const Contact = ({ showContact }) => {
           <a
             href="https://github.com/amankkgupta"
             target="_blank"
-            className="py-2 px-10 font-bold bg-emerald-500 rounded-lg"
+            className="py-2 px-10 text-center font-bold bg-emerald-500 rounded-lg"
           >
             Github
           </a>
           <a
             href="https://linkedin.com/in/amankkgupta"
             target="_blank"
-            className="py-2 px-10 font-bold bg-emerald-500 rounded-lg"
+            className="py-2 px-10 text-center font-bold bg-emerald-500 rounded-lg"
           >
             LinkedIn
           </a>
           <a
             href="mailto:amangupta65734@gmail.com"
-            className="py-2 px-10 font-bold bg-emerald-500 rounded-lg"
+            className="py-2 px-10 text-center font-bold bg-emerald-500 rounded-lg"
           >
             Send Email
           </a>

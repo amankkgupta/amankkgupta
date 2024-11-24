@@ -80,21 +80,21 @@ const Home = () => {
             <a
               href="https://github.com/amankkgupta"
               target="_blank"
-              className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
+              className="px-6 py-2 text-center bg-emerald-500 rounded-lg font-bold"
             >
               Github
             </a>
             <a
               href="https://linkedin.com/in/amankkgupta"
               target="_blank"
-              className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
+              className="px-6 py-2 text-center bg-emerald-500 rounded-lg font-bold"
             >
               LinkedIn
             </a>
             <a
               href="https://drive.google.com/file/d/1WOa7ZEXQj_ug2A0YpijqmxkdAFOvCJbU/view?usp=sharing"
               target="_blank"
-              className="px-6 py-2 bg-emerald-500 rounded-lg font-bold"
+              className="px-6 py-2 text-center bg-emerald-500 rounded-lg font-bold"
             >
               Resume
             </a>
