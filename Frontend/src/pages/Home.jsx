@@ -1,17 +1,21 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import todo from "../assets/todo.png";
 import profileImage from "../assets/pro.jpg";
 import Footer from "../components/Footer";
 import { Contact } from "../components/Contact";
-import {Home as HomeIcon, Briefcase, FolderClosed, CircleUserRound, ContactRound} from 'lucide-react';
+import {
+  Home as HomeIcon,
+  Briefcase,
+  FolderClosed,
+  CircleUserRound,
+  ContactRound,
+} from "lucide-react";
 
 const Home = () => {
-
   const [contact, setContact] = useState(false);
-  const showContact= ()=>{
+  const showContact = () => {
     setContact(!contact);
-  }
+  };
 
   return (
     <div id="main" className="min-w-full min-h-screen bg-blue-950">
@@ -27,16 +31,16 @@ const Home = () => {
                 <a href="#home">Home</a>
               </li>
               <li className="inline hover:text-white">
-              <a href="#aboutme">About</a>
+                <a href="#aboutme">About</a>
               </li>
               <li className="inline hover:text-white">
-              <a href="#experience">Experience</a>
+                <a href="#experience">Experience</a>
               </li>
               <li className="inline hover:text-white">
-              <a href="#projects">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li className="inline hover:text-white">
-                <NavLink to="" onClick={showContact}>Contact me</NavLink>
+                <button onClick={showContact}>Contact me</button>
               </li>
             </ul>
           </div>
@@ -45,12 +49,11 @@ const Home = () => {
 
       <div className="md:hidden sticky top-2 flex justify-center items-center">
         <div className="rounded-full bg-blue-500 flex px-6 py-4 gap-12 justify-center items-center">
-
-          <HomeIcon/>
-          <CircleUserRound/>
-          <Briefcase/>
-          <FolderClosed/>
-          <ContactRound/>
+          <HomeIcon />
+          <CircleUserRound />
+          <Briefcase />
+          <FolderClosed />
+          <ContactRound />
         </div>
       </div>
 
@@ -159,7 +162,9 @@ const Home = () => {
           <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">Todo List App</h1>
+              <h1 className="font-extrabold text-red-500 text-2xl">
+                Todo List App
+              </h1>
               <h1 className="">Technologies: Html, Css, Javascript.</h1>
             </div>
             <h1 className="">
@@ -190,7 +195,9 @@ const Home = () => {
           <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">Todo List App</h1>
+              <h1 className="font-extrabold text-red-500 text-2xl">
+                Todo List App
+              </h1>
               <h1 className="">Technologies: Html, Css, Javascript.</h1>
             </div>
             <h1 className="">
@@ -221,7 +228,9 @@ const Home = () => {
           <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">Todo List App</h1>
+              <h1 className="font-extrabold text-red-500 text-2xl">
+                Todo List App
+              </h1>
               <h1 className="">Technologies: Html, Css, Javascript.</h1>
             </div>
             <h1 className="">
@@ -252,7 +261,9 @@ const Home = () => {
           <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">Todo List App</h1>
+              <h1 className="font-extrabold text-red-500 text-2xl">
+                Todo List App
+              </h1>
               <h1 className="">Technologies: Html, Css, Javascript.</h1>
             </div>
             <h1 className="">
@@ -283,7 +294,9 @@ const Home = () => {
           <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
-              <h1 className="font-extrabold text-red-500 text-2xl">Todo List App</h1>
+              <h1 className="font-extrabold text-red-500 text-2xl">
+                Todo List App
+              </h1>
               <h1 className="">Technologies: Html, Css, Javascript.</h1>
             </div>
             <h1 className="">
@@ -313,7 +326,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {contact && <Contact showContact={showContact}/>}
+      {contact && <Contact showContact={showContact} />}
       <Footer />
     </div>
   );
