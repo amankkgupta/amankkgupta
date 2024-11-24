@@ -1,19 +1,19 @@
-# My Portfolio
+# Aman Kumar Gupta's Portfolio
 
-Welcome to the source code repository for my personal portfolio website! This site is built to highlight my skills, projects, and experience as a Full Stack Developer, using modern technologies and best practices to deliver a smooth, engaging experience.
+Welcome to the repository for my personal portfolio website! This site serves as a comprehensive showcase of my journey as a Full Stack Developer, featuring my Skills, Experiences, and Projects.
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Tailwind CSS, Lottie Animations
-- **Email Integration:** EmailJS (for seamless contact form functionality)
-- **Hosting:** Deployed on [Your hosting platform, e.g., Vercel, Netlify]
+- **Frontend Framework:** Reactjs.
+- **Styling:** Tailwind CSS for modern, clean, and responsive design.
+- **Hosting:** Deployed on Vercel.
 
-## 🚀 Features
-- **Responsive Design:** Fully responsive, adapting to mobile, tablet, and desktop screen sizes for a consistent user experience across all devices.
-- **Smooth Animations:** Features Lottie animations for interactive and visually appealing content.
-- **Projects Showcase:** Displays featured projects with GitHub links and descriptions, allowing visitors to explore my work.
-- **Social Links:** Includes easy access to my profiles on GitHub, LinkedIn, and LeetCode.
-- **Contact Form:** Integrated with EmailJS, enabling visitors to send messages directly from the site.
+## 🌟 Features
+- **Fully Responsive:** The design automatically adjusts to various screen sizes, providing an optimal viewing experience across devices, whether on mobile, tablet, or desktop.
+- **About Me Section:** A brief introduction about who I am, my background, and what drives me in the world of development.
+- **Experience:** A timeline highlighting my professional journey, internships, and relevant roles that demonstrate my growth in the industry.
+- **Projects:** Showcases a collection of key projects, each with descriptions and direct links to their GitHub repositories, allowing visitors to dive deeper into my code.
+- **Contact Links:** Quick access to my GitHub, LinkedIn, and eEail for easy communication.
 
-## 🖼️ Demo
-Check out the live version of my portfolio: [amankkgupta.me]
+## 🖥️ Live Preview
+Explore the live site here: [amankkgupta.me]
 
