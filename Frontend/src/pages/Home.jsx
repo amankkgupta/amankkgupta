@@ -113,7 +113,7 @@ const Home = () => {
         <h1 className="text-4xl text-emerald-500 font-bold text-center rounded-full py-10">
           About me
         </h1>
-        <div className="p-10 rounded-3xl bg-blue-900">
+        <div className="p-5 rounded-3xl bg-blue-900">
           <h2 className="text-white text-left text-lg font-semibold">
             I am Aman Kumar Gupta, a computer science student from Bihar with a
             passion for web development. With a strong foundation in both
