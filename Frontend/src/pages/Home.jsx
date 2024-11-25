@@ -124,14 +124,13 @@ const Home = () => {
               <h1 className="">Technologies: Html, Css, Javascript.</h1>
             </div>
             <h1 className="">
-              I am currently leading my team in my Infosys Springboard
-              internship, where I am working as a backend developer. My
-              responsibilities include designing and preparing the database
-              model for our project. I am also ensuring efficient data
-              management and smooth integration with other parts of the
-              application. In addition to technical tasks, I guide my team in
-              making key backend architecture decisions. This role is enhancing
-              my leadership and technical skills.
+              This to-do app allows users to manage tasks efficiently by adding,
+              editing, deleting, and marking them as completed, with completed
+              tasks crossed out for clarity. It is built using HTML5 for
+              structure, CSS3 for styling, and JavaScript for functionality. The
+              interface is clean and user-friendly, providing a seamless task
+              management experience. Users can easily interact with the app to
+              stay organized and productive.
             </h1>
             <div className="flex justify-evenly flex-wrap items-center py-4">
               <a
