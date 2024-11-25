@@ -10,7 +10,7 @@ Throughout my Journey till now, I have gained experience in **Full Stack Develop
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠️ My Skills
 
 - Programming Languages: C, C++, Java
 
