@@ -22,7 +22,7 @@ Throughout my Journey till now, I have gained experience in **Full Stack Develop
 
 - ***Dev tools:*** VS Code, Git
 
-- ****Core concepts:*** Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP)
+- ***Core concepts:*** Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP)
 
 - ***Soft skills:*** Presentation, Time Management, Problem Solving
 
