@@ -66,7 +66,7 @@ const Home = () => {
           About me
         </h1>
         <div className="p-5 rounded-3xl bg-blue-900">
-          <h2 className="text-white text-left text-lg font-semibold">
+          <h2 className="text-white text-left font-semibold">
             I'm Aman Kumar Gupta from Bihar, a Software Engineer specialized in
             Full Stack Development, Skilled in both frontend and backend, I
             focus on building user-friendly, responsive websites and ensure
