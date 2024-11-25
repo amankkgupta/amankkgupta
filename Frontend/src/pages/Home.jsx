@@ -18,7 +18,7 @@ const Home = () => {
       {/* //home */}
       <div
         id="home"
-        className="md:p-20 p-5 pt-20 w-full min-h-screen flex flex-col md:flex-row items-center justify-around"
+        className="md:p-20 p-5 pt-20 w-full min-h-screen flex flex-col flex-wrap md:flex-row items-center justify-around"
       >
         <div className="">
           <h1 className="text-6xl font-bold text-white">Hello,</h1>
@@ -28,7 +28,7 @@ const Home = () => {
           <h1 className="text-6xl font-bold text-white">
             I'm a <span className="text-green-600">Software Engineer</span>.
           </h1>
-          <div className="my-6 flex justify-start gap-3 items-center">
+          <div className="my-6 flex flex-wrap justify-start gap-3 items-center">
             <a
               href="https://github.com/amankkgupta"
               target="_blank"
