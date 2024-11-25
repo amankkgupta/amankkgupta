@@ -12,7 +12,7 @@ Throughout my Journey till now, I have gained experience in **Full Stack Develop
 
 ## 🛠️ My Skills
 
-- Programming Languages: C, C++, Java
+- ###Programming Languages:### C, C++, Java
 
 - Frontend: HTML, CSS, JavaScript, React.js
 
