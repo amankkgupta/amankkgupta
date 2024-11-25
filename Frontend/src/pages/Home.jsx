@@ -68,19 +68,18 @@ const Home = () => {
         <div className="p-5 rounded-3xl bg-blue-900">
           <h2 className="text-white text-left text-lg font-semibold">
             I'm Aman Kumar Gupta from Bihar, a Software Engineer specialized in
-            Full Stack Development, with keen interest in creating dynamic and
-            scalable web applications. Skilled in both frontend and backend, I
+            Full Stack Development, Skilled in both frontend and backend, I
             focus on building user-friendly, responsive websites and ensure
             efficient database management, server-side logic, and API
             integration for seamless performance. Proficient in Data Structures
             & Algorithms, I write optimized and clean code. I enjoy
             problem-solving and continuously seek to grow and improve my skills
-            and follow best practices to ensure maintainable code. Throughout my
-            Journey till now, I have gained experience in Full Stack Development
-            and Data Structures & Algorithms, which provide the foundation for
-            efficient coding and problem-solving. I also sharpened my
-            presentation and time management skills through various academic and
-            personal projects. I always eager to learn and innovate
+            and follow best practices to ensure writing maintainable code.
+            Throughout my Journey till now, I have gained experience in Full
+            Stack Development and Data Structures & Algorithms, which provide
+            the foundation for efficient coding and problem-solving. I also
+            sharpened my presentation and time management skills through various
+            projects. I always eager to learn and innovate.
           </h2>
         </div>
       </div>
