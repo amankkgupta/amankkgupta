@@ -12,19 +12,19 @@ Throughout my Journey till now, I have gained experience in **Full Stack Develop
 
 ## 🛠️ My Skills
 
-- ###Programming Languages:### C, C++, Java
+- ***Programming Languages:*** C, C++, Java
 
-- Frontend: HTML, CSS, JavaScript, React.js
+- ***Frontend:*** HTML, CSS, JavaScript, React.js
 
-- Backend: Node.js, Express.js
+- ***Backend:*** Node.js, Express.js
 
-- Datebases: MySQL, MongoDB
+- ***Datebases:*** MySQL, MongoDB
 
-- Dev tools: VS Code, Git
+- ***Dev tools:*** VS Code, Git
 
-- CourseWork: Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP)
+- ****Core concepts:*** Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP)
 
-- Soft skills: Presentation, Time Management, Problem Solving
+- ***Soft skills:*** Presentation, Time Management, Problem Solving
 
 ---
 
