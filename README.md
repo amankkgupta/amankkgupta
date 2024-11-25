@@ -1,6 +1,6 @@
 # Hello, I'm Aman Kumar Gupta 👋
 
-Welcome to my GitHub! I'm a Software Engineer specializing in Full Stack Development, with a passion for creating dynamic, scalable web applications. Skilled in both frontend and backend, I focus on building user-friendly, responsive websites. Proficient in Data Structures & Algorithms, I write optimized and clean code. I enjoy problem-solving and continuously seek to grow and improve my skills and follow best practices to ensure maintainable code. I always eager to learn and innovate.
+Welcome to my GitHub! I'm a Software Engineer specialized in Full Stack Development, with a passion for creating dynamic, scalable web applications. Skilled in both frontend and backend, I focus on building user-friendly, responsive websites. Proficient in Data Structures & Algorithms, I write optimized and clean code. I enjoy problem-solving and continuously seek to grow and improve my skills and follow best practices to ensure maintainable code. I always eager to learn and innovate.
 
 ---
 
