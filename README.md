@@ -32,7 +32,6 @@ Throughout my Journey till now, I have gained experience in **Full Stack Develop
 
 I am always open to collaboration and discussions about tech, innovation, and development. You can reach me through the following platforms:
 
-- [GitHub](https://github.com/amankkgupta)
 - [LinkedIn](https://www.linkedin.com/in/amankkgupta)
 - [Email](mailto:amangupta65734@gmail.com)
 
