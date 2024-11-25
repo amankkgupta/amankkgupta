@@ -26,7 +26,7 @@ const Home = () => {
             My name is <span className="text-red-500">Aman Kumar Gupta</span>
           </h1>
           <h1 className="text-6xl font-bold text-white">
-            I'm a <span className="text-green-600">FullStack Developer</span>.
+            I'm a <span className="text-green-600">Software Engineer</span>.
           </h1>
           <div className="my-6 flex justify-start gap-3 items-center">
             <a
@@ -67,21 +67,18 @@ const Home = () => {
         </h1>
         <div className="p-5 rounded-3xl bg-blue-900">
           <h2 className="text-white text-left text-lg font-semibold">
-            I am Aman Kumar Gupta, a computer science student from Bihar with a
-            passion for web development. With a strong foundation in both
-            front-end and back-end technologies, I consider myself a skilled
-            full-stack developer capable of building and maintaining scalable,
-            user-friendly web applications. I'm always eager to learn and keep
-            up with the latest industry trends, ensuring I can deliver
-            cutting-edge solutions. Currently, I am interning at Infosys
-            Springboard, gaining valuable industry experience and working on a
-            project called "DebateVerse: Engage, discuss and grow with
-            interactive debates". This experience has allowed me to apply agile
-            methodologies and further develop my skills. As a proactive problem
-            solver, I thrive in collaborative environments and enjoy tackling
-            new challenges. My goal is to continue growing as a developer while
-            staying at the forefront of technological advancements to create
-            innovative and impactful solutions.
+            I'm Aman Kumar Gupta from Bihar,a Software Engineer specialized in Full Stack Development, with
+            a passion for creating dynamic, scalable web applications. Skilled
+            in both frontend and backend, I focus on building user-friendly,
+            responsive websites. Proficient in Data Structures & Algorithms, I
+            write optimized and clean code. I enjoy problem-solving and
+            continuously seek to grow and improve my skills and follow best
+            practices to ensure maintainable code. I always eager to learn and
+            innovate. Throughout my Journey till now, I have gained experience
+            in Full Stack Development and Data Structures & Algorithms, which
+            provide the foundation for efficient coding and problem-solving. I
+            also sharpened my presentation and time management skills through
+            various academic and personal projects.
           </h2>
         </div>
       </div>
