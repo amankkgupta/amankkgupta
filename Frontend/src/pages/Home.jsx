@@ -115,7 +115,7 @@ const Home = () => {
           Projects
         </h1>
         <div className="flex flex-wrap gap-10 justify-evenly items-center">
-          <div className="text-white md:w-1/4 bg-blue-900 rounded-2xl p-4">
+          <div className="text-white md:w-80 bg-blue-900 rounded-2xl p-4">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
               <h1 className="font-extrabold text-red-500 text-2xl">

@@ -35,7 +35,7 @@ const Navbar = ({ showContact }) => {
       </div>
 
       <div className="navbarsm md:hidden fixed top-2 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
-        <div className="rounded-full bg-blue-500 flex px-6 py-4 gap-12 justify-center items-center">
+        <div className="rounded-full bg-blue-500 flex px-6 py-4 gap-10 justify-center items-center">
           <a href="#home">
             <HomeIcon />
           </a>

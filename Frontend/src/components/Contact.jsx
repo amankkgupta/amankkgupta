@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { X } from "lucide-react";
+import { X, Github, Linkedin } from "lucide-react";
 
 export const Contact = ({ showContact }) => {
   const container = useRef();
@@ -13,7 +13,9 @@ export const Contact = ({ showContact }) => {
       className="container inset-0 fixed flex justify-center items-center backdrop-blur-sm"
     >
       <div className="relative popup flex-col rounded-xl md:p-24 p-8 flex justify-center gap-10 items-center bg-white">
-        <button className="absolute top-4 right-4" onClick={showContact}><X size={38}/></button>
+        <button className="absolute top-4 right-4" onClick={showContact}>
+          <X size={38} />
+        </button>
         <div className="flex flex-col md:flex-row gap-10">
           <a
             href="https://github.com/amankkgupta"
