@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Home as HomeIcon,
-  Briefcase,
-  FolderClosed,
-  CircleUserRound,
-  ContactRound,
-} from "lucide-react";
+import { LuHome, LuUserCircle2, LuBriefcase, LuFolderClosed,LuContact2 } from "react-icons/lu";
 
 const Navbar = ({ showContact }) => {
   return (
@@ -36,20 +30,20 @@ const Navbar = ({ showContact }) => {
 
       <div className="navbarsm md:hidden fixed top-2 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
         <div className="rounded-full bg-blue-500 flex px-6 py-4 gap-10 justify-center items-center">
-          <a href="#home">
-            <HomeIcon />
+          <a href="#home" className="hover:text-white">
+            <LuHome size={28}/>
           </a>
-          <a href="#aboutme">
-            <CircleUserRound />
+          <a href="#aboutme" className="hover:text-white">
+            <LuUserCircle2 size={28}/>
           </a>
-          <a href="#experience">
+          <a href="#experience" className="hover:text-white">
             {" "}
-            <Briefcase />
+            <LuBriefcase size={28}/>
           </a>
-          <a href="#projects">
-            <FolderClosed />
+          <a href="#projects" className="hover:text-white">
+            <LuFolderClosed size={28}/>
           </a>
-          <ContactRound onClick={showContact} />
+          <LuContact2 size={28} onClick={showContact} className="hover:text-white"/>
         </div>
       </div>
     </>

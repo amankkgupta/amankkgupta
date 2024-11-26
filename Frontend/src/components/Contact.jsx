@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import { X, Github, Linkedin } from "lucide-react";
+import { FaXmark } from "react-icons/fa6";
 
-export const Contact = ({ showContact }) => {
+const Contact = ({ showContact }) => {
   const container = useRef();
   const closeContact = (e) => {
     if (container.current == e.target) showContact();
@@ -14,26 +14,26 @@ export const Contact = ({ showContact }) => {
     >
       <div className="relative popup flex-col rounded-xl md:p-24 p-8 flex justify-center gap-10 items-center bg-white">
         <button className="absolute top-4 right-4" onClick={showContact}>
-          <X size={38} />
+          <FaXmark size={34}/>
         </button>
         <div className="flex flex-col md:flex-row gap-10">
           <a
             href="https://github.com/amankkgupta"
             target="_blank"
-            className="py-2 px-10 text-center font-bold bg-emerald-500 rounded-lg"
+            className="py-2 px-10 text-center font-bold bg-emerald-500 hover:bg-emerald-600 rounded-lg"
           >
             Github
           </a>
           <a
             href="https://linkedin.com/in/amankkgupta"
             target="_blank"
-            className="py-2 px-10 text-center font-bold bg-emerald-500 rounded-lg"
+            className="py-2 px-10 text-center font-bold bg-emerald-500 hover:bg-emerald-600 rounded-lg"
           >
             LinkedIn
           </a>
           <a
             href="mailto:amangupta65734@gmail.com"
-            className="py-2 px-10 text-center font-bold bg-emerald-500 rounded-lg"
+            className="py-2 px-10 text-center font-bold bg-emerald-500 hover:bg-emerald-600 rounded-lg"
           >
             Send Email
           </a>
@@ -42,7 +42,7 @@ export const Contact = ({ showContact }) => {
           Email:{" "}
           <a
             href="mailto:amangupta65734@gmail.com"
-            className="text-emerald-500 underline"
+            className="text-emerald-500 underline hover:text-emerald-600"
           >
             amangupta65734@gmail.com
           </a>
@@ -51,3 +51,5 @@ export const Contact = ({ showContact }) => {
     </div>
   );
 };
+
+export default Contact;
