@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
+
 const ContactForm = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
@@ -18,9 +19,9 @@ const ContactForm = () => {
     e.preventDefault();
     setIsLoading(true);
 
-    const serviceID = "service_uoh1a21";
-    const templateID = "template_nemg5cx";
-    const publicKey = "1Pxk1wO3bnnEltFoG";
+    const serviceID = import.meta.env.VITE_SERVICE_ID;
+    const templateID = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLICKEY;
 
     const templateParams = {
       from_name: formData.name,
