@@ -26,7 +26,6 @@ const ContactForm = () => {
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
-      to_name: "Aman Kumar Gupta",
       message: formData.description,
     };
 
