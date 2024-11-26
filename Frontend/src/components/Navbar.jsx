@@ -7,7 +7,7 @@ import {
   LuContact2,
 } from "react-icons/lu";
 
-const Navbar = ({ showContact }) => {
+const Navbar = () => {
   return (
     <>
       <div className="navbarmd hidden sticky top-2 md:flex justify-center items-center">

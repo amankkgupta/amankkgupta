@@ -10,14 +10,10 @@ import "react-toastify/dist/ReactToastify.css";
 import Projects from "./components/Projects";
 
 const App = () => {
-  const [contact, setContact] = useState(false);
-  const showContact = () => {
-    setContact(!contact);
-  };
-
+  
   return (
     <div id="main" className="min-w-full min-h-screen bg-blue-950">
-      <Navbar showContact={showContact} />
+      <Navbar />
       <Home />
       <About />
       <Experience />
