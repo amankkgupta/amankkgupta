@@ -25,7 +25,7 @@ const App = () => {
           Experience
         </h1>
         <div className="flex gap-5">
-          <div className="text-white md:w-1/2 bg-blue-900 rounded-2xl p-5">
+          <div className="text-white md:w-1/2 bg-blue-900 rounded-2xl p-5 hover:scale-105 transition-transform duration-300">
             <div className="flex justify-between my-4 items-center">
               <h1 className="font-bold text-2xl text-red-500">
                 Project Intern{" "}
@@ -52,7 +52,7 @@ const App = () => {
           Projects
         </h1>
         <div className="flex flex-wrap gap-10 justify-evenly items-center">
-          <div className="text-white md:w-80 bg-blue-900 rounded-2xl p-4">
+          <div className="text-white md:w-80 bg-blue-900 rounded-2xl p-4 hover:scale-105 transition-transform duration-300">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
               <h1 className="font-bold text-red-500 text-2xl">Todo List App</h1>

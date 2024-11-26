@@ -14,7 +14,7 @@ const Navbar = ({ showContact }) => {
         <div className="rounded-full bg-blue-500 flex py-3 px-10 justify-center items-center">
           <div>
             <ul className="flex gap-14 text-black font-extrabold">
-              <li className="inline hover:text-white">
+              <li className="inline hover:text-white ">
                 <a href="#home">Home</a>
               </li>
               <li className="inline hover:text-white">

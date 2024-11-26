@@ -8,7 +8,7 @@ const About = () => {
       </h1>
 
       <div className="flex flex-col md:flex-row gap-5 items-start justify-between">
-        <div className="md:w-1/2 p-5 rounded-3xl bg-blue-900">
+        <div className="md:w-1/2 p-5 rounded-3xl bg-blue-900 hover:scale-105 transition-transform duration-300">
           <h3 className="text-2xl text-emerald-500 font-bold mb-2">
             Who am I ?
           </h3>
@@ -30,7 +30,7 @@ const About = () => {
         </div>
 
         <div className="flex md:w-1/2 flex-col gap-5">
-          <div className="p-5 rounded-3xl bg-blue-900">
+          <div className="p-5 rounded-3xl bg-blue-900 hover:scale-105 transition-transform duration-300">
             <h3 className="text-2xl text-emerald-500 font-bold mb-2">
               My Skills
             </h3>
@@ -80,7 +80,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="p-5 rounded-3xl bg-blue-900">
+          <div className="p-5 rounded-3xl bg-blue-900 hover:scale-105 transition-transform duration-300">
             <h3 className="text-2xl text-emerald-500 font-bold">
               Education
             </h3>
