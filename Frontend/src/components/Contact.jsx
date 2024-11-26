@@ -64,10 +64,11 @@ const ContactForm = () => {
                 type="text"
                 id="name"
                 name="name"
+                placeholder="Enter Your Name"
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full font-bold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
+                className="w-full placeholder-slate-500 font-bold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
               />
             </div>
             <div className="mb-4">
@@ -81,10 +82,11 @@ const ContactForm = () => {
                 type="email"
                 id="email"
                 name="email"
+                placeholder="Enter Your Email"
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full font-bold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
+                className="w-full placeholder-slate-500 font-bold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
               />
             </div>
             <div className="mb-4">
@@ -97,10 +99,11 @@ const ContactForm = () => {
               <textarea
                 id="description"
                 name="description"
+                placeholder="Enter Your Message"
                 value={formData.description}
                 onChange={handleChange}
                 required
-                className="w-full font-bold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
+                className="w-full placeholder-slate-500 font-bold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
                 rows="5"
               ></textarea>
             </div>
