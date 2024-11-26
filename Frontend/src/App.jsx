@@ -56,10 +56,10 @@ const App = () => {
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
               <h1 className="font-bold text-red-500 text-2xl">Todo List App</h1>
-              <h1 className="text-emerald-500 font-semibold">
+              <h1 className="text-emerald-500 font-bold">
                 Technologies: Html, Css, Javascript.
               </h1>
-              <h1 className="text-emerald-500 font-semibold">Year: Jun 2024</h1>
+              <h1 className="text-emerald-500 font-bold">Year: Jun 2024</h1>
             </div>
             <h1 className="">
               This to-do app allows users to manage tasks efficiently by adding,
