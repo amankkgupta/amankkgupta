@@ -1,5 +1,11 @@
 import React from "react";
-import { LuHome, LuUserCircle2, LuBriefcase, LuFolderClosed,LuContact2 } from "react-icons/lu";
+import {
+  LuHome,
+  LuUserCircle2,
+  LuBriefcase,
+  LuFolderClosed,
+  LuContact2,
+} from "react-icons/lu";
 
 const Navbar = ({ showContact }) => {
   return (
@@ -21,7 +27,7 @@ const Navbar = ({ showContact }) => {
                 <a href="#projects">Projects</a>
               </li>
               <li className="inline hover:text-white">
-                <button onClick={showContact}>Contact me</button>
+                <a href="#contactme">Contact me</a>
               </li>
             </ul>
           </div>
@@ -31,19 +37,21 @@ const Navbar = ({ showContact }) => {
       <div className="navbarsm md:hidden fixed top-2 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
         <div className="rounded-full bg-blue-500 flex px-6 py-4 gap-10 justify-center items-center">
           <a href="#home" className="hover:text-white">
-            <LuHome size={28}/>
+            <LuHome size={28} />
           </a>
           <a href="#aboutme" className="hover:text-white">
-            <LuUserCircle2 size={28}/>
+            <LuUserCircle2 size={28} />
           </a>
           <a href="#experience" className="hover:text-white">
             {" "}
-            <LuBriefcase size={28}/>
+            <LuBriefcase size={28} />
           </a>
           <a href="#projects" className="hover:text-white">
-            <LuFolderClosed size={28}/>
+            <LuFolderClosed size={28} />
           </a>
-          <LuContact2 size={28} onClick={showContact} className="hover:text-white"/>
+          <a href="#contactme" className="hover:text-white">
+            <LuContact2 size={28} />
+          </a>
         </div>
       </div>
     </>

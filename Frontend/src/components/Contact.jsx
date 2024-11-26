@@ -1,55 +1,125 @@
-import React, { useRef } from "react";
-import { FaXmark } from "react-icons/fa6";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
-const Contact = ({ showContact }) => {
-  const container = useRef();
-  const closeContact = (e) => {
-    if (container.current == e.target) showContact();
+const ContactForm = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    description: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+
+    const serviceID = "service_uoh1a21";
+    const templateID = "template_nemg5cx";
+    const publicKey = "1Pxk1wO3bnnEltFoG";
+
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      to_name: "Aman Kumar Gupta",
+      message: formData.description,
+    };
+
+    emailjs
+      .send(serviceID, templateID, templateParams, publicKey)
+      .then((response) => {
+        setFormData({
+          name: "",
+          email: "",
+          description: "",
+        });
+        setIsLoading(false);
+        toast.success("Success ! Mail Sent, You will receive reply soon.");
+      })
+      .catch((err) => {
+        setIsLoading(false);
+        toast.error("Failed ! Try after Sometime.");
+      });
+  };
+
   return (
-    <div
-      ref={container}
-      onClick={closeContact}
-      className="container inset-0 fixed flex justify-center items-center backdrop-blur-sm"
-    >
-      <div className="relative popup flex-col rounded-xl md:p-24 p-8 flex justify-center gap-10 items-center bg-white">
-        <button className="absolute top-4 right-4" onClick={showContact}>
-          <FaXmark size={34}/>
-        </button>
-        <div className="flex flex-col md:flex-row gap-10">
-          <a
-            href="https://github.com/amankkgupta"
-            target="_blank"
-            className="py-2 px-10 text-center font-bold bg-emerald-500 hover:bg-emerald-600 rounded-lg"
-          >
-            Github
-          </a>
-          <a
-            href="https://linkedin.com/in/amankkgupta"
-            target="_blank"
-            className="py-2 px-10 text-center font-bold bg-emerald-500 hover:bg-emerald-600 rounded-lg"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="mailto:amangupta65734@gmail.com"
-            className="py-2 px-10 text-center font-bold bg-emerald-500 hover:bg-emerald-600 rounded-lg"
-          >
-            Send Email
-          </a>
+    <div id="contactme" className="bg-blue-950 p-5 pt-20 md:px-20 md:py-10">
+      <h1 className="text-4xl text-emerald-500 font-bold text-center rounded-full py-10">
+        Contact me
+      </h1>
+      <div className="flex justify-center items-center">
+        <div className=" bg-blue-900 w-full lg:w-1/2 rounded-2xl p-5">
+          <form onSubmit={handleSubmit}>
+            <div className="mb-4">
+              <label
+                className="block text-white text font-bold mb-2"
+                htmlFor="name"
+              >
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                className="w-full font-medium px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-300"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block text-white font-bold mb-2"
+                htmlFor="subject"
+              >
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="w-full font-medium px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-300"
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                className="block text-white font-bold mb-2"
+                htmlFor="description"
+              >
+                Description
+              </label>
+              <textarea
+                id="description"
+                name="description"
+                value={formData.description}
+                onChange={handleChange}
+                required
+                className="w-full font-medium px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-300"
+                rows="5"
+              ></textarea>
+            </div>
+            <div className="flex items-center justify-center">
+              <button
+                type="submit"
+                className={`bg-blue-500 text-white px-10 py-2 rounded-lg ${
+                  !isLoading ? "hover:bg-blue-600" : "bg-blue-200"
+                }`}
+              >
+                {isLoading ? "Submitting" : "Submit"}
+              </button>
+            </div>
+          </form>
         </div>
-        <h1 className="font-bold text-lg">
-          Email:{" "}
-          <a
-            href="mailto:amangupta65734@gmail.com"
-            className="text-emerald-500 underline hover:text-emerald-600"
-          >
-            amangupta65734@gmail.com
-          </a>
-        </h1>
       </div>
     </div>
   );
 };
 
-export default Contact;
+export default ContactForm;

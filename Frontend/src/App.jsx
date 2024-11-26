@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import todo from "./assets/todo.png";
 import Home from "./components/Home";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import ContactForm from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   const [contact, setContact] = useState(false);
@@ -53,10 +55,10 @@ const App = () => {
           <div className="text-white md:w-80 bg-blue-900 rounded-2xl p-4">
             <img src={todo} alt="Profile" className="rounded-xl" />
             <div className="my-4">
-              <h1 className="font-bold text-red-500 text-2xl">
-                Todo List App
+              <h1 className="font-bold text-red-500 text-2xl">Todo List App</h1>
+              <h1 className="text-emerald-500 font-semibold">
+                Technologies: Html, Css, Javascript.
               </h1>
-              <h1 className="text-emerald-500 font-semibold">Technologies: Html, Css, Javascript.</h1>
               <h1 className="text-emerald-500 font-semibold">Year: Jun 2024</h1>
             </div>
             <h1 className="">
@@ -87,8 +89,9 @@ const App = () => {
           </div>
         </div>
       </div>
-      {contact && <Contact showContact={showContact} />}
+      <ContactForm/>
       <Footer />
+      <ToastContainer/>
     </div>
   );
 };
