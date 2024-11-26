@@ -68,7 +68,7 @@ const ContactForm = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full font-semibold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-300"
+                className="w-full font-semibold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
               />
             </div>
             <div className="mb-4">
@@ -85,7 +85,7 @@ const ContactForm = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full font-semibold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-300"
+                className="w-full font-semibold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
               />
             </div>
             <div className="mb-4">
@@ -101,15 +101,15 @@ const ContactForm = () => {
                 value={formData.description}
                 onChange={handleChange}
                 required
-                className="w-full font-semibold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-300"
+                className="w-full font-semibold px-3 py-2 border-2 rounded-lg focus:outline-none focus:border-green-500 bg-blue-400"
                 rows="5"
               ></textarea>
             </div>
             <div className="flex items-center justify-center">
               <button
                 type="submit"
-                className={`bg-blue-500 text-white px-10 py-2 rounded-lg ${
-                  !isLoading ? "hover:bg-blue-600" : "bg-blue-200"
+                className={`bg-emerald-500 font-bold text-white px-12 py-2 rounded-lg ${
+                  !isLoading ? "hover:bg-emerald-600" : "bg-emerald-300"
                 }`}
               >
                 {isLoading ? "Submitting" : "Submit"}
