@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="md:p-20 p-5 pt-20 w-full min-h-screen flex flex-col flex-wrap md:flex-row items-center justify-center"
+      className="md:p-20 p-5 pt-20 w-full min-h-screen flex flex-col flex-wrap md:flex-row items-center justify-evenly"
     >
       <div className="">
         <h1 className="md:text-6xl text-4xl font-bold text-white">Hello,</h1>
@@ -27,7 +27,7 @@ const Home = () => {
             strings={["Software Engineer.", "Full Stack Developer."]}
             typeSpeed={75}
             backSpeed={75}
-            startDelay={3000}
+            startDelay={2500}
           />
         </h1>
         <div className="my-7 flex flex-wrap justify-start gap-3 items-center">
