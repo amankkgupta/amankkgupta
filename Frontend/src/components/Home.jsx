@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="md:p-20 p-5 pt-20 w-full min-h-screen flex flex-col flex-wrap md:flex-row items-center justify-evenly"
+      className="md:p-20 p-5 pt-20 w-full min-h-screen flex flex-col flex-wrap md:flex-row items-center justify-center"
     >
       <div className="">
         <h1 className="md:text-6xl text-4xl font-bold text-white">Hello,</h1>
@@ -34,7 +34,7 @@ const Home = () => {
           <a
             href="https://github.com/amankkgupta"
             target="_blank"
-            className="p-3 hover:scale-105 transition-transform duration-300 md:px-6 flex gap-2 text-center bg-emerald-500 hover:bg-emerald-600 rounded-lg font-bold"
+            className="p-2 hover:scale-105 transition-transform duration-300 md:px-6 flex gap-2 text-center bg-emerald-500 hover:bg-emerald-600 rounded-lg font-bold"
           >
             <FaGithub size={25} />
             Github
@@ -42,7 +42,7 @@ const Home = () => {
           <a
             href="https://linkedin.com/in/amankkgupta"
             target="_blank"
-            className="p-3 hover:scale-105 transition-transform duration-300 md:px-6 flex gap-2 text-center bg-emerald-500 hover:bg-emerald-600 rounded-lg font-bold"
+            className="p-2 hover:scale-105 transition-transform duration-300 md:px-6 flex gap-2 text-center bg-emerald-500 hover:bg-emerald-600 rounded-lg font-bold"
           >
             <FaLinkedin size={25} />
             LinkedIn
@@ -50,7 +50,7 @@ const Home = () => {
           <a
             href="https://drive.google.com/file/d/1WOa7ZEXQj_ug2A0YpijqmxkdAFOvCJbU/view?usp=sharing"
             target="_blank"
-            className="p-3 hover:scale-105 transition-transform duration-300 md:px-6 flex gap-2 text-center bg-emerald-500 hover:bg-emerald-600 rounded-lg font-bold"
+            className="p-2 hover:scale-105 transition-transform duration-300 md:px-6 flex gap-2 text-center bg-emerald-500 hover:bg-emerald-600 rounded-lg font-bold"
           >
             <FaFileLines size={25} />
             Resume
