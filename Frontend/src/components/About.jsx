@@ -59,6 +59,10 @@ const About = () => {
                 Express.js
               </p>
 
+              <p className="font-bold text-indigo-900 p-2 bg-indigo-200 rounded-lg shadow">
+                Serverless
+              </p>
+
               <p className="font-bold text-pink-900 p-2 bg-pink-200 rounded-lg shadow">
                 MongoDB
               </p>
