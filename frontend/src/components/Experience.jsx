@@ -13,17 +13,26 @@ const Experience = () => {
               Project Intern{" "}
               <span className="text-emerald-500">@Infosys Springboard</span>
             </h1>
-            <h1 className="font-medium">Nov 2024 - Present</h1>
+            <h1 className="font-medium">Oct 2024 - Dec 2024</h1>
           </div>
+
           <h1 className="">
-            I am currently leading my team in my Infosys Springboard internship,
-            where I am working as a backend developer. My responsibilities
-            include designing and preparing the database model for our project.
-            I am also ensuring efficient data management and smooth integration
-            with other parts of the application. In addition to technical tasks,
-            I guide my team in making key backend architecture decisions. This
-            role is enhancing my leadership and technical skills.
+            As the team leader of three interns during my Infosys Springboard
+            internship, I gained valuable industry experience. I worked as a
+            backend developer, designing and developing the database model for
+            our project, ensuring efficient data management, and enabling smooth
+            integration with the rest of the application. I also played a
+            crucial role in guiding my team through key backend architecture
+            decisions. This experience significantly enhanced my technical
+            expertise and leadership abilities.
           </h1>
+          <a
+            target="_blank"
+            className="underline font-bold"
+            href="https://drive.google.com/file/d/122Y7yva5Oe_72XJ9fyc-10MV9wpniDHv/view?usp=sharing"
+          >
+            View Certificate
+          </a>
         </div>
       </div>
     </div>

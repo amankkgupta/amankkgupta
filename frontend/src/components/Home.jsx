@@ -48,7 +48,7 @@ const Home = () => {
             LinkedIn
           </a>
           <a
-            href="https://drive.google.com/file/d/1WOa7ZEXQj_ug2A0YpijqmxkdAFOvCJbU/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zbYs_48C57YdBpK50WsiS4hgywFvW3Me/view?usp=sharing"
             target="_blank"
             className="p-2 hover:scale-105 transition-transform duration-300 md:px-6 flex gap-2 text-center bg-emerald-500 hover:bg-emerald-600 rounded-lg font-bold"
           >

@@ -10,7 +10,7 @@ import {
 const Navbar = () => {
   return (
     <>
-      <div className="navbarmd hidden sticky top-2 md:flex justify-center items-center">
+      <div className="navbarmd hidden sticky top-2 md:flex justify-center items-center z-10">
         <div className="rounded-full bg-blue-500 flex py-3 px-10 justify-center items-center">
           <div>
             <ul className="flex gap-14 text-black font-extrabold">
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="navbarsm md:hidden fixed top-2 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
+      <div className="navbarsm md:hidden fixed top-2 left-1/2 transform -translate-x-1/2 flex justify-center items-center z-10">
         <div className="rounded-full bg-blue-500 flex px-6 py-4 gap-10 justify-center items-center">
           <a href="#home" className="hover:text-white">
             <LuHome size={28} />
